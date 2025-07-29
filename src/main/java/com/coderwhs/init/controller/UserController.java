@@ -2,6 +2,7 @@ package com.coderwhs.init.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.coderwhs.init.annotation.AuthCheck;
+import com.coderwhs.init.config.WxOpenConfig;
 import com.coderwhs.init.constant.UserConstant;
 import com.coderwhs.init.exception.BusinessException;
 import com.coderwhs.init.exception.ThrowUtils;
@@ -10,7 +11,6 @@ import com.coderwhs.init.common.BaseResponse;
 import com.coderwhs.init.common.DeleteRequest;
 import com.coderwhs.init.common.ErrorCode;
 import com.coderwhs.init.common.ResultUtils;
-import com.coderwhs.init.config.WxOpenConfig;
 import com.coderwhs.init.model.dto.user.UserAddRequest;
 import com.coderwhs.init.model.dto.user.UserLoginRequest;
 import com.coderwhs.init.model.dto.user.UserQueryRequest;
