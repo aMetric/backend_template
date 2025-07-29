@@ -1,6 +1,5 @@
 package com.coderwhs.init.service;
 
-import com.coderwhs.init.model.entity.User;
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
