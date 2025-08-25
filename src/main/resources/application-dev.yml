@@ -1,8 +1,6 @@
-# 测试配置文件
 server:
   port: 8101
 spring:
-  # 数据库配置
   datasource:
     url: jdbc:mysql://117.72.86.124:3306/testdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
